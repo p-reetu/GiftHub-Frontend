@@ -1,0 +1,59 @@
+.card-backdrop{
+    background-color: var(--green-2);
+    border-radius: 10px;
+    width: 300px; /* Adjust the width as needed */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card-main{
+    border-radius: 0 40% 0 0;
+    background-color: var(--background);
+    padding: 20px;
+}
+.card-sender {
+    font-size: 10px;
+    color: var(--green-2);
+}
+
+.card-receiver {
+    font-size: 14px;
+    color: var(--green-2);
+}
+
+.card-image img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 10px;
+}
+
+.card-content h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: var(--violet-3);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-curve {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px; /* Adjust the width to fit the curve */
+    height: 100px; /* Adjust the height to fit the curve */
+    background-color: #a4cd39; /* Curve color */
+    border-top-left-radius: 50%;
+    transform: translate(50%, -50%);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+    }
+}

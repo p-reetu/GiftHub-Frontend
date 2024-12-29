@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*{
+  --background: #FCFFF1;
+  --green-3:#618728;
+  --green-2:#98BA50;
+  --green-1:#C5D97C;
+  --violet-1:#B761BC;
+  --violet-2:#803387;
+  --violet-3:#44154A;
+}
+body {
+  background-color: #f4f4f4;
+}
