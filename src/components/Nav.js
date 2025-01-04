@@ -14,18 +14,14 @@ export default function Nav() {
     <nav className="navbar">
       <Container fluid>
         <Row>
-          <Col sm={12} lg={5} className="sm-text-center">
+          <Col sm={12} lg={5} className="">
             <a href="/">
               <img src={logo} alt="Logo" className="nav-logo" />
             </a>
           </Col>
-          <Col id="search-box" lg={7}>
-            <InputGroup className="mb-3 mt-2" id="search-input">
-              <Form.Control
-                placeholder="Search for gift ideas..."
-                aria-label="Search for gifts"
-                aria-describedby="basic-addon2"
-              />
+          <Col className="mx-auto"  lg={7} sm={12}>
+            <InputGroup className="m-3" id="search-box">
+              <input type="text" className="search-input" placeholder="Search for gift ideas..."/>
               <Button variant="" id="button-addon2">
                 <img src={searchicon} />
               </Button>

@@ -9,7 +9,7 @@ export default function Main(props) {
     <Container className="card-container" fluid>
       <Row>
         {props.gifts.map((e) => (
-          <Card gift={e} />
+          <Card gift={e} key={e.id} />
         ))}
       </Row>
     </Container>
